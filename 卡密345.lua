@@ -46,7 +46,7 @@ Key.Position = UDim2.new(0.1, 0, 0.31, 0)
 Key.Size = UDim2.new(0.8, 0, 0, 50)
 Key.Font = Enum.Font.SourceSans
 Key.PlaceholderText = "卡密"
-Key.Text = "345"
+Key.Text = ""
 Key.TextColor3 = Color3.new(0, 0, 0)
 Key.TextScaled = true
 Key.TextSize = 14
@@ -544,6 +544,6 @@ mini2.MouseButton1Click:Connect(function()
 	closebutton.Position =  UDim2.new(0, 0, -1, 27)
 end)
     else
-        game.Players.LocalPlayer:Kick("bro")
+        game.Players.LocalPlayer:Kick("bro你不知道密码")
     end
 end)
